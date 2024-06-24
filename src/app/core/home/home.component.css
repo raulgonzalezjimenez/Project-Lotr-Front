@@ -1,0 +1,12 @@
+:host {
+  flex: 0.4 0 auto;
+}
+
+section {
+  background-image: url(../../../assets/wallpaperhome.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-size: cover;
+}

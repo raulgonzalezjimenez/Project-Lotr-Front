@@ -1,0 +1,99 @@
+:host {
+  display: flex;
+  justify-content: center;
+  flex: 2 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.fondo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  gap: 20px;
+  color: white;
+  height: 60vh;
+  width: 80vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+  padding: 15px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  border-radius: 10px;
+}
+
+/* form */
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  height: 60vh;
+  width: 80vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+}
+h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: lightgray;
+}
+.form-control input,
+select {
+  background-color: #585858;
+  border: none;
+  height: 24px;
+  width: 155px;
+  outline: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+select {
+  padding: 4px;
+}
+
+::placeholder,
+select {
+  color: rgb(213, 207, 207);
+  font-size: 12px;
+}
+
+button {
+  font-weight: 500;
+  background-color: #fb6a00;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 155px;
+  border: none;
+}
+
+.file {
+  font-size: 10px;
+}

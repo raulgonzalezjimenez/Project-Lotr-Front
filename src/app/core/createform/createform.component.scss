@@ -1,0 +1,66 @@
+:host {
+  display: flex;
+  justify-content: center;
+  flex: 2 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  height: 60vh;
+  width: 80vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+}
+img {
+  width: 120px;
+}
+h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: lightgray;
+}
+.form-control input,
+select {
+  background-color: #585858;
+  border: none;
+  height: 24px;
+  width: 155px;
+  outline: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+select {
+  padding: 4px;
+}
+
+::placeholder,
+select {
+  color: rgb(213, 207, 207);
+  font-size: 12px;
+}
+button {
+  font-weight: 500;
+  background-color: #fb6a00;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 155px;
+  border: none;
+}
+
+.file {
+  font-size: 10px;
+}

@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  justify-content: center;
+  flex: 2 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
