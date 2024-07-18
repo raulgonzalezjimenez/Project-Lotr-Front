@@ -35,3 +35,15 @@ button {
   color: black;
   font-family: "Oswald", sans-serif;
 }
+
+.account {
+  color: black;
+  width: 7.5rem;
+  height: 2.3rem;
+  margin: 22px;
+  background-color: #fb6a00;
+  border: 1px solid #fb6a00;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}

@@ -34,4 +34,8 @@ export const routes: Routes = [
     path: 'races/:data',
     loadComponent: () => import('./core/list/list.component'),
   },
+  {
+    path: 'account',
+    loadComponent: () => import('./core/account/account.component'),
+  },
 ];
