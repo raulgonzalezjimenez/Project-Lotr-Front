@@ -15,9 +15,11 @@ import { StateService } from '../../service/state.service';
         <button>FACCIONES</button>
         @if (displayLogout) {
         <button type="button" (click)="logout()">LOGOUT</button>
+        <a  href="#" [routerLink]="'/account'"> <button class="account">CUENTA</button></a>
         } @else {
         <button class="login" [routerLink]="'/login'">LOGIN</button>
         }
+
       </section>
     </menu>
   `,

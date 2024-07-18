@@ -7,3 +7,8 @@ export type UserRegisterDto = {
   email: string;
   password: string;
 };
+export type account = {
+  id:string
+  email:string
+  userName: string;
+}
